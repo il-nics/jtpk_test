@@ -213,8 +213,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 Text(text = "Hello")
                 Text(text = name, style = MaterialTheme.typography.headlineMedium)
                 if (expanded){
-                    Text("Abbellaa!! Affantasticaaa!! Queto è il testo della tab che si apre " +
-                            "espandendo il contenuto e facendo una bouncinesss viejndneidendaisndeonsine")
+                    Text("Animazione tendina con animateContentSize() e bounciness. " +
+                            "Espandendo il contenuto rimbalza. Non so cos'altro scrivere")
                 }
             }
             IconButton(
