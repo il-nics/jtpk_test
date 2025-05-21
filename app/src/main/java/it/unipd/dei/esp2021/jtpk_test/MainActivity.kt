@@ -86,7 +86,7 @@ fun TopBar(
         windowInsets = WindowInsets(top=0.dp),
         title = {
             Text(
-                text = "Searching",
+                text = "Cercando",
                 color = MaterialTheme.colorScheme.onBackground.copy(0.7f),
                 //fontSize = 17.dp
             )
