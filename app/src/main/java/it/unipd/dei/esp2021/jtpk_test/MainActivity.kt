@@ -214,7 +214,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 Text(text = name, style = MaterialTheme.typography.headlineMedium)
                 if (expanded){
                     Text("Animazione tendina con animateContentSize() e bounciness. " +
-                            "Espandendo il contenuto rimbalza. Non so cos'altro scrivere")
+                            "Espandendo il contenuto rimbalza. Non so cos'altro scrivere. Siamo sul main")
                 }
             }
             IconButton(
