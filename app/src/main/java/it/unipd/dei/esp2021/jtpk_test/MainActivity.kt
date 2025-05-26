@@ -210,7 +210,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     )
             )
             {
-                Text(text = "Hello")
+                Text(text = "Andiamo in barca")
                 Text(text = name, style = MaterialTheme.typography.headlineMedium)
                 if (expanded){
                     Text("Animazione tendina con animateContentSize() e bounciness. " +
